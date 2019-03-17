@@ -28,7 +28,7 @@ DATASET_PATH = ROOT_DIR / DATASET_DIR
 
 # Start from the pre-trained COCO model. Change this path if you want to pick up training from a prior
 # checkpoint file in your ./training_logs folder.
-WEIGHTS_TO_START_FROM = DEFAULT_LOGS_DIR / "card_30.h5"
+WEIGHTS_TO_START_FROM = COCO_WEIGHTS_PATH # DEFAULT_LOGS_DIR / "card_30.h5"
 
 # Object Name
 CUSTOM_NAME = "card"
