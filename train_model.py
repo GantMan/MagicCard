@@ -12,7 +12,7 @@ import skimage.draw
 from mrcnn.config import Config
 from mrcnn import model as modellib, utils
 
-ROOT_DIR = Path("../")
+ROOT_DIR = Path(".")
 DATASET_DIR = "RCNNCardData_dataset"
 COCO_WEIGHTS_PATH = ROOT_DIR / "mask_rcnn_coco.h5"
 
